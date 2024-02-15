@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Registration Form
+        </title>
+        <style>
+            h1{
+              text-align: center;
+            font-size: 50px;
+            
+            }
+            h2{
+                font-size: 40px;
+                font-weight: 200;
+            }
+        </style>
+    </head>
+    <body  bgcolor="lavender";>
+        <form action="login.html" method="get" id="form1">
+            <fieldset>
+                <h1>
+                    ----------Registration form -------
+                </h1>
+                <h2>
+                    <label> Firstname: </label>         
+        <input type="text" name="firstname" size="15" required/> <br> <br>  
+        <label> Middlename: </label>     
+        <input type="text" name="middlename" size="15"/> <br> <br>  
+        <label> Lastname: </label>         
+        <input type="text" name="lastname" size="15"/> <br> <br> 
+        <label>
+           Gender:
+        </label><br>
+        <input type="radio" name="Male" /> Male <br>
+        <input type="radio" name="Female" /> Female <br>
+        <input type="radio" name="Others" /> Others <br>
+        <br>
+        <label>
+            Sports events: <br>
+            </label>
+            <input type="checkbox" name="2"/> cricket <br>
+            <input type="checkbox" name="2"/> kabaddi <br>
+            <input type="checkbox" name="2"/> shuttle <br>
+            <input type="checkbox" name="2"/> throwball <br>
+            <input type="checkbox" name="2"/> rugby <br>  <br>
+            <label>
+                No of sports registered:
+            </label>
+            <input type="text" name="" /><br><br>
+        </label><label> Year of study: <br>
+            <input type="radio" name="Others" /> 1 <br>
+        <input type="radio" name="Others" /> 2 <br>
+        <input type="radio" name="Others" /> 3 <br>
+        <input type="radio" name="Others" /> 4<br>
+        <br>
+        </label>
+                </h2>
+                
+            </fieldset>
+        </form>  
+        <button> Already registered? <a href="http://127.0.0.1:5500/login.html"></a>  </button>
+        <button type="submit" onclick="alert('Submitted Successfully')">submit</button>
+    </body>
+</html>

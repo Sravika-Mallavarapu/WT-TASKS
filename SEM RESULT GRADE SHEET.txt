@@ -1,0 +1,225 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sem_Results</title>
+    <style>
+        table{
+            width: 1200;
+            border-collapse: collapse;
+    
+
+        
+
+        }
+        td{
+            padding-top: 10;
+            padding-bottom: 10;
+            padding-left: 5;
+            
+        }
+        tr{
+            text-align: center;
+
+        }
+        #x{
+            white-space: nowrap;
+        }
+        #y{
+            white-space: nowrap;
+        }
+        p{
+            text-align: center;
+            font-size: x-large;
+
+        }
+        fieldset{
+            margin-left: 150;
+            margin-right: 150;
+            
+          
+            
+        }
+        span{
+            color: black;
+            font-size: x-large;
+            font:bold;
+        }
+        
+    </style>
+</head>
+<body>
+    <fieldset>
+    <p>Sree Vidyanikethan Engineering College(Autonomous)</p>
+    <h3 align="center">Sree Sainath Nagar,Tirupati-517102</h3>
+    <h4 align="center">(Affiliated to Jawaharlal Nehru Technological University Anantapur, Anantapuramu)</h4>
+    <h1 align="center"><u>GRADE SHEET</u></h1>
+    <table border="1" align="center">
+        <tr>
+            <td align="left" width="400"><span>Examination: </span>11 B.Tech 1 Semester(SVEC-20)Regular Examinations,January-2023</td>
+            <td align="left" width="400"><span>Month & Year:</span> January 2023</td>
+        </tr>
+
+        <tr>
+            <td align="left" colspan="2"><span>Branch:</span>Computer Science and Engineering-Cyber Security</td>
+        </tr>
+        <tr >
+            <td align="left"><span>Name of the Student:</span>MALLAVARAPU SRAVIKA</td>
+            <td align="left"><span>Hall Ticket No.:</span>21121A3732</td>
+        </tr>
+     
+    </table>
+    <br>
+
+
+   
+    <table border="1" align="center">
+        <tr bgcolor="orange" id="x">
+            <th>S.No.</th>
+            <th>Subject code</th>
+            <th width="500">Subject Title</th>
+            <th>Internal Marks</th>
+            <th>External Marks</th>
+            <th>Total Marks</th>
+            <th>Grade point</th>
+            <th>Grade</th>
+            <th>Credits</th>
+
+
+        </tr>
+        <tr >
+            <td>1</td>
+            <td align="left">20BT3BS01</td>
+            <td align="left" id="y">NUMERICAL METHODS,PROBABILITY AND STATISTICS</td>
+            <td>30</td>
+            <td>62</td>
+            <td>92</td>
+            <td>10</td>
+            <td>A+</td>
+            <td>3</td>
+        </tr>
+        <tr >
+            <td>2</td>
+            <td align="left">20BT31501</td>
+            <td align="left">OPERATING SYSTEMS</td>
+            <td>30</td>
+            <td>54</td>
+            <td>84</td>
+            <td>9</td>
+            <td>A</td>
+            <td>3</td>
+        </tr>
+        <tr >
+            <td>3</td>
+            <td align="left">20BT22901</td>
+            <td align="left">DATA STRUCTURES AND ALGORITHMS</td>
+            <td>30</td>
+            <td>63</td>
+            <td>93</td>
+            <td>10</td>
+            <td>A+</td>
+            <td>3</td>
+        </tr>
+        <tr >
+            <td >4</td>
+            <td align="left">20BT50501</td>
+            <td align="left">COMPUTER NETWORKS</td>
+            <td>28</td>
+            <td>56</td>
+            <td>84</td>
+            <td>9</td>
+            <td>A</td>
+            <td>3</td>
+        </tr>
+        <tr >
+            <td>5</td>
+            <td align="left">20BT30501</td>
+            <td align="left">COMPUTER ORGANIZATION</td>
+            <td>30</td>
+            <td>57</td>
+            <td>87</td>
+            <td>9</td>
+            <td>A</td>
+            <td>3</td>
+        </tr>
+        <tr >
+            <td>6</td>
+            <td align="left">20BT31531</td>
+            <td align="left">OPERATING SYSTEMS LAB</td>
+            <td>30</td>
+            <td>65</td>
+            <td>95</td>
+            <td>10</td>
+            <td>A+</td>
+            <td>1.5</td>
+        </tr>
+        <tr >
+            <td>7</td>
+            <td align="left">20BT50531</td>
+            <td align="left">COMPUTER NETWORKS LAB</td>
+            <td>30</td>
+            <td>70</td>
+            <td>100</td>
+            <td>10</td>
+            <td>A+</td>
+            <td>1.5</td>
+        </tr>
+        <tr >
+            <td >8</td>
+            <td align="left">20BT22931</td>
+            <td align="left">DATA STRUCTURES AND ALGORITHMS LAB</td>
+            <td>30</td>
+            <td>69</td>
+            <td>99</td>
+            <td>10</td>
+            <td>A+</td>
+            <td>1.5</td>
+        </tr>
+        <tr >
+            <td >9</td>
+            <td align="left">20BT33701</td>
+            <td align="left">COMPUTER HARDWARE AND SYSTEM ESSENTIALS</td>
+            <td>30</td>
+            <td>69</td>
+            <td>99</td>
+            <td>10</td>
+            <td>A+</td>
+            <td>2</td>
+        </tr>
+        <tr >
+            <td>10</td>
+            <td align="left">20BT315AC</td>
+            <td align="left">DESIGN THINKING*</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+        </tr>
+        <tr>
+        <td colspan="3" align="right">Total:</td>
+        <td>268</td>
+        <td>565</td>
+        <td>833</td>
+        <td colspan="2"></td>
+        <td>21.5</td>
+        </tr>
+    </table>
+    <br>
+    <table border="1" align="center" width="1200">
+        <tr>
+            <td align="left"><h3>**-Audit Course</h3></td>
+        </tr>
+    </table>
+    <br>
+    <table border="1" align="center" width="1200">
+        <tr>
+            <td align="left" ><h3>SGPA:9.58/CGPA:9.65</h3></td>
+        </tr>
+    </table>
+</fieldset>
+    
+    
+</body>
+</html>

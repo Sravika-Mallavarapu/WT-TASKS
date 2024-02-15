@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Sravika Portfolio</title>
+ <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: #f8f9fa;
+            color:red;
+            
+        }
+
+        header {
+            background-color: beige;
+            color: #2fabc0;
+            padding: 10px 0;
+            text-align: left;
+        }
+
+        section {
+            padding: 20px 0;
+        }
+
+        .skills {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .project-card {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: white;
+            color: #125595;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .navbar .nav-item:hover .nav-link{
+            color:rgb(239, 243, 242)
+
+        }
+        div.a{
+            line-height: 1.4;
+        }
+        .hello{
+            color:#2fabc0
+        }
+        .h2{
+            text-decoration: underline;
+        }
+     
+        p{
+            color: rgb(0, 0, 0);
+        }
+        .img{
+            border-radius: 70px;
+        }
+       .d{
+        color: black;
+       }
+       .a{
+        color: black;
+       }
+       .s{
+        color: black;
+       }
+       .t{
+        color: black;
+       }
+       .r{
+        color: black;
+       }
+       .u{
+        color: black;
+       }
+       .x{
+        color: black;
+       }
+     
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Mallavarapu Sravika</h1>
+    
+        <p>Computer science and Engineering Student</p>
+        <p><a class="hello" href="tel:8019280281">Contact:8019280281</a> </p>
+        <p><a class="hello" href="https://www.linkedin.com/in/sravika-mallavarapu-735526248">Linkedin profile</a> </p>
+       
+    </header>
+
+    <section>
+        <div class="container">
+                <h2 style="text-decoration: underline;">OBJECTIVE  </h2>
+                <p>To acquire an internship in an organization and to impart my skills for the development of organization. I am an
+                    upcoming graduate by 2025 but seeking a career to utilize my knowledge and personal skills to gain comprehensive
+                    understanding in a reputed organization so as to take responsibility and contribute significantly.</p>
+            </div>
+
+            <h2 style="text-decoration: underline;" >EDUCATION</h2><P>
+            <ul class="d" style="list-style-type: disc;">
+                <li >
+                    SSC(10th): -10GPA -2019 @Guntur Oxford Public School
+                    </li>  <br>
+                    <li >
+                        BIEAP(Intermediate):- 97.3% - 2021 @Narayana Jr college
+                        </li>  <br>
+                        <li >
+                            BTech(CSE-CYBERSECURITY):-9.54CGPA(UPTODATE)-2021TO2025@SREEVIDYANIKETHANENGINEERINGCOLLEGE
+                            </li>  <br>
+                          </ul></P>
+
+            <h2 style="text-decoration: underline;">PROJECTS</h2>
+           <div class="a">
+                 <UL STYLE="list-style-type:disc;"><LI>Password cracking and strength checker on Phishing</LI></UL></div>
+                 <div>
+                 <h2 style="text-decoration: underline;">PERSONAL SKILLS</h2>
+                 <UL class="s" STYLE="list-style-type:disc;"><LI>Good Analytical skills<BR> </LI>
+                    <LI>Time Management <BR></LI><LI>Leadership</LI></UL> </div>
+                        <h2 style="text-decoration: underline;">TECHNICAL SKILLS</h2>
+                        <div style="line-height: 1.4;">
+                              <UL class=" x"STYLE="list-style-type:disc;"><LI>C PROGRAMMMING(INTERMEDIATE)</LI>
+                            <li>
+                                JAVA(INTERMEDIATE)
+                            </li></UL></div>
+                             
+            <h2 style="text-decoration:underline">CERTIFICATIONS</h2>
+            <ul class="t"style="line-height: 1.4;;">
+                <li>
+                    NPTEL Certification on Cryptography and network security
+                </li>
+                <li>College Magazine editor for the year 2022-2023
+                </li>
+                <li>IDASCN Conference paper about child alert using vehicle type
+                    </li>
+                 
+                <li >Digital Bheem Internship on Web Development</li>
+                
+            </ul>
+            <h2 style="text-decoration:underline;">HOBBIES</h2>
+            <ul class="r" style="line-height: 1.4;font-size: 18px;">
+                <li>
+                    Listening music
+                </li>
+                <li>Browsing history about royal ruling
+                </li></ul>
+                <h2 style="text-decoration:underline;">PERSONAL PROFILE</h2>
+            <ul class="u" style="line-height: 1.4;font-size: 18px;">
+                <li>
+                    Gender:Female &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DOB: OCT 17,2003
+                </li>          
+                <li>DOB: OCT 17,2003
+                </li>
+                <li>Languages known :Telugu,English
+                </li><li>Email: sravikamallavarapu1676@gmail.com
+                </li></ul>
+            
+            
+                <h2 style="text-decoration:underline;">DECLARATION</h2>
+               <P style="line-height: 1.4;">l do here by declare that the information stated above is true to the best of my knowledge.<br>
+                Signature:Mallavarapu Sravika</P>
+    </section>
+ <footer>
+   
+        <p>&copy; 2024 sravika. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

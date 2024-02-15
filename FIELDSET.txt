@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fieldset</title>
+</head>
+<style>
+    div{font-size: 20px;}
+    legend{
+        font-size: 20px;
+    }
+</style>
+<body bgcolor="lavender">
+    <h1>
+        USER DETAILS
+    </h1>
+    <fieldset>
+        <legend>BASIC INFO</legend>
+       
+        <div> Firstname:      
+        <input type="text" name="firstname" size="15"/> <br> <br>  
+    </div>    
+        <div> Middlename:    
+        <input type="text" name="middlename" size="15"/> <br> <br>  
+        </div>  
+       <div> Lastname:        
+        <input type="text" name="lastname" size="15"/> <br> <br></div>
+        <div>
+            Email:<input type="text" size="15"/><br><br>
+        </div>
+        <div>
+            Contact:<input type="tel" size="15"/><br>
+        </div>
+
+    </fieldset><br>
+    <fieldset>
+        <legend>
+            PERSONAL INFO
+        </legend>
+        <div> Address:     
+            <input type="text" name="" size="15"/> <br> <br>  
+        </div>    
+            <div> Lane1:    
+            <input type="text" name="middlename" size="15"/> <br> <br>  
+            </div>  
+           <div> Lane 2:        
+            <input type="text" name="lastname" size="15"/> <br> <br></div>
+            <div>
+                Zipcode:<input type="text" maxlength="6"/><br><br>
+            </div>
+            <div>
+               Uid no:<input type="text" size="16"/><br><br>
+            </div>
+            <div>
+                Pan no:<input type="text" size="16"/><br>
+             </div>
+        
+    </fieldset><br>
+    <fieldset>
+        <legend>
+           PROFESSIONAL DETAILS
+        </legend>
+        <div> Highest Educational qualification:  <br>  <br>
+            <input type="radio" name="1" />SSC <br> 
+              <input type="radio" name="1"  />Inter <br>
+              <details>
+<summary>UG/PG</summary>
+            
+             <ul>
+                <input type="radio" name="1" />BTECH <br>
+                    <input type="radio" name="1" />MTECH <br>
+                    </ul>
+                </details><br>
+
+
+        </div>    
+            <div> Technologies known:    <input type="text" name="1" /><br><br>
+             
+            </div>  
+           <div> Projects done:<br> <br>      
+            <input type="radio" name="2" />YES <ul>
+                <details><summary>
+                    <input type="file">
+                </summary></details>
+            </ul>
+            <input type="radio" name="2" />NO <br> <br></div> 
+            <div>
+                Internships involved:<br>
+                <input type="radio" name="2" />YES
+                <input type="radio" name="2" />NO
+            </div>
+            
+    </fieldset>
+    <button> Submit</button>
+
+</body>

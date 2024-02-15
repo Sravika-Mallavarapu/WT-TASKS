@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        .form-container {
+            display: flex;
+            justify-content: space-around;
+        }
+        .form-section {
+            width: 30%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="display.html" method="post" id="form1">
+        <fieldset class="form-section">
+            <legend>Personal Information</legend>
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name" placeholder="First Name" required><br>
+            <label for="middle_name">Middle Name:</label>
+            <input type="text" id="middle_name" name="middle_name" placeholder="Middle Name"><br>
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name" placeholder="Last Name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Email" required><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Password" required><br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br>
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select><br>
+        </fieldset>
+        <fieldset class="form-section">
+            <legend>Contact Information</legend>
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" placeholder="City" required><br>
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state" placeholder="State" required><br>
+            <label for="pin_code">Pin Code:</label>
+            <input type="text" id="pin_code" name="pin_code" placeholder="Pin Code" required><br>
+            <label for="mobile_number">Mobile Number:</label>
+            <input type="text" id="mobile_number" name="mobile_number" placeholder="Mobile Number" required><br>
+            <label for="alternate_number">Alternate Number:</label>
+            <input type="text" id="alternate_number" name="alternate_number" placeholder="Alternate Number"><br>
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" placeholder="Address" required></textarea><br>
+        </fieldset>
+        <fieldset class="form-section">
+            <legend>Education Information</legend>
+            <label for="school_name">School Name:</label>
+            <input type="text" id="school_name" name="school_name" placeholder="School Name" required><br>
+            <label for="school_percentage">School Percentage:</label>
+            <input type="number" id="school_percentage" name="school_percentage" placeholder="School Percentage" required><br>
+            <label for="college_name">College Name:</label>
+            <input type="text" id="college_name" name="college_name" placeholder="College Name" required><br>
+            <label for="college_percentage">College Percentage:</label>
+            <input type="number" id="college_percentage" name="col
+           
